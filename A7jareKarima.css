@@ -1,0 +1,72 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: content-box;
+}
+
+@font-face{
+    font-family: 'text';
+    src:url('fontfamily/Almarai-Regular.ttf');
+    font-style: normal;
+    font-weight:bold;
+}
+/*Start Header*/
+body{
+        background-image: url('jawahire2.png');
+
+}
+header{
+    padding: 20px;
+    font-family: Arial;
+    display: flex;
+    justify-content:center
+}
+header h1{
+    color: #FFF;
+    display: inline;
+    font-family: text;
+    font-size: 50px
+}
+
+/*End Header*/
+
+/*Start Content*/
+
+.content{
+    display: flex;
+    justify-content:center;
+    height: 493px;
+}
+.content h1{
+    margin-top: 110px;
+}
+.content h1 a{
+    border: 2px solid #d3f8d9;
+    padding: 30px;
+    font-size: 60px;
+    border-radius: 80px;
+    background: #126c0d;
+    text-decoration: none;
+    color:#FFF;
+    font-family: text  ;  
+}
+/*End Content*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
